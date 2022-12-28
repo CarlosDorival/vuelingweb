@@ -1,0 +1,21 @@
+{
+  "name": "vueling",
+  "version": "1.0.0",
+  "description": "test e2e web",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Carlos Dorival",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "cypress": "^12.2.0",
+    "esbuild":"0.14.48",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^2.8.1"
+  }
+}
